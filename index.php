@@ -16,7 +16,7 @@
         <form action="https://api.gbprimepay.com/gbp/gateway/qrcode" method="POST"> 
             <input type="hidden" name="token" value="ULzRWyv2b8kQwB8nkh1HyDFu2kRqrMjV2mW1NBny55Y4bQ7N9b3Cfo+j0PEEbuSWQwKDdWsG5XwtOGmkk+cXtrGS67O+vmxtlEVTaLi88s/7uuhnqqgMNkscSh86Vw3n9EQL923Fpj3UeJgEVCIDPjuxJkaww3sm1zEa+o5S24gKmTls">
             <input type="hidden" name="referenceNo" value="201711280011">
-            <input type="hidden" name="backgroundUrl" value="http://localhost/qr_code/hook.php">
+            <input type="hidden" name="backgroundUrl" value="https://kodpang.herokuapp.com/hook.php">
             <div class="form-group">
             <input type="number" class="form-control" name="amount" maxlength="13" placeholder="Amount" value="1.00">
             </div>
