@@ -12,7 +12,7 @@ ini_set('display_errors', 1);
 	error_reporting(E_ALL);
 	date_default_timezone_set("Asia/Bangkok");
 
-	$sToken = "ls9rPB19Pr0ap6ZHFC5rlqQ1FtCK9R0q4sDsV62175m";
+	$sToken = "fnuFko1TYpvuuYW8yRuIvF7shulqt51pctCB3uQ3i8F";
 	$sMessage = "resultCode : ". $json_obj->resultCod .", amount : ". $json_obj->amount .", referenceNo :".$json_obj->referenceNo.", gbpReferenceNo : ".$json_obj->gbpReferenceNo.",currencyCode : ".$json_obj->currencyCode;
 
 	$chOne = curl_init(); 
